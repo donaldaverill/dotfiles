@@ -21,8 +21,8 @@ brew install elixir
 brew install rethinkdb
 brew install graphicsmagick
 brew install ffmpeg # for creating animated gifshttps://gist.github.com/dergachev/4627207
-brew cask install xquartz #dependency for gifsicle, only required for mountain-lion and above
-open /usr/local/Cellar/x-quartz/2.7.8/XQuartz.pkg # runs the XQuartz installer
+# brew cask install xquartz #dependency for gifsicle, only required for mountain-lion and above
+# open /usr/local/Cellar/x-quartz/2.7.8/XQuartz.pkg # runs the XQuartz installer
 brew install gifsicle
 
 # Remove outdated versions from the cellar.
