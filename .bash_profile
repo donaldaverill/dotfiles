@@ -47,3 +47,13 @@ complete -W "NSGlobalDomain" defaults;
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 eval $(/usr/libexec/path_helper -s)
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/dea/src/google-cloud-sdk/path.bash.inc' ]; then . '/Users/dea/src/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/dea/src/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/dea/src/google-cloud-sdk/completion.bash.inc'; fi
+export PATH="$HOME/src/google-cloud-sdk/bin:$PATH";
+
+export PATH=~/Library/Python/2.7/bin:$PATH;
+
