@@ -249,3 +249,9 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+pidportfunction() {
+  lsof -n -i4TCP:$1 | grep LISTEN
+}
+
+alias pidport=pidportfunction
