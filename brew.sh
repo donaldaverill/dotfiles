@@ -14,5 +14,8 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# Run Brew Doctor
+brew doctor
+
 # Remove outdated versions from the cellar.
 brew cleanup

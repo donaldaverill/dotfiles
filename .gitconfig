@@ -84,7 +84,7 @@
 [core]
 
 	# Use custom `.gitignore` and `.gitattributes`
-	excludesfile = /Users/dea/.gitignore
+	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
 
 	# Treat spaces before tabs and all kinds of trailing whitespace as an error
@@ -100,8 +100,8 @@
 	# http://michael-kuehnel.de/git/2014/11/21/git-mac-osx-and-german-umlaute.html
 	precomposeunicode = false
 
-    # Use nano as default editor
-    editor = "nano"
+    # Use code as default editor
+	editor = code --wait
 	autocrlf = input
 
 [color]
@@ -153,7 +153,7 @@
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
 
-  tool = vscode
+    tool = vscode
 [mergetool "vscode"]
   cmd = code --wait $MERGED
 
@@ -203,5 +203,5 @@
        diff = diff-so-fancy | less --tabs=1,5 -RFX
        show = diff-so-fancy | less --tabs=1,5 -RFX
 
-[url "git@github.com:"]
- insteadOf = https://github.com/
+[init]
+	defaultBranch = main
