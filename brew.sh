@@ -14,6 +14,7 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# Remove any formulae that are no longer needed.
 brew autoremove
 
 # Run Brew Doctor
