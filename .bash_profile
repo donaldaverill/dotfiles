@@ -57,7 +57,6 @@ fi
 export ANDROID_HOME=/Users/$USER/Library/Android/sdk
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export GOPATH=$HOME/go
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 export PATH="/usr/local/opt/node@14/bin:$PATH"
@@ -68,5 +67,6 @@ export PATH=~/sonar-scanner/bin:$PATH;
 export ANDROID_HOME=/Users/$USER/Library/Android/sdk
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export GOPATH=$HOME/go
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+export PATH="/usr/local/sbin:$PATH"
