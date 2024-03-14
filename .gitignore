@@ -36,6 +36,8 @@ $RECYCLE.BIN/
 ### Linux ###
 *~
 
+### extra with api keys and things that should not be in the repo ###
+.extra
 
 # Thumbnails
 ._*
